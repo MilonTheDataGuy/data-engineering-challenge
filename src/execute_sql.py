@@ -1,5 +1,5 @@
 import sqlite3
-  
+
 def execute_fetch_query(cursor, file_path):
     with open(file_path, 'r') as file:
         query = file.read()
