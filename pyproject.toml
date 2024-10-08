@@ -5,8 +5,8 @@ description = "A project to manage product ratings"
 authors = ["Milon Das"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-sqlite3 = "^3.35.4"
+python = ">=3.9,<4.0"
+pytest = "^8.3.3"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
